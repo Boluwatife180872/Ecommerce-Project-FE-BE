@@ -1,12 +1,115 @@
-# React + Vite
+# E-commerce Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce web application built with React and Vite, featuring product browsing, shopping cart management, checkout process, and order tracking functionality.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🛍️ Product browsing and search
+- 🛒 Shopping cart management
+- 💳 Checkout process
+- 📦 Order tracking
+- 🚚 Delivery options
+- 💰 Payment processing
+- 📱 Responsive design
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:**
+  - React 19
+  - React Router 7
+  - Axios for API calls
+  - Day.js for date handling
+  - CSS for styling
+
+- **Development Tools:**
+  - Vite 6
+  - ESLint 9
+  - Vitest for testing
+  - React Testing Library
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (LTS version recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone [repository-url]
+cd ecommerce-project
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+### Development
+
+To start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+### Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+### Linting
+
+To run the linter:
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+- `/src` - Source code
+  - `/assets` - Static assets
+  - `/components` - Reusable components
+  - `/pages` - Page components
+    - `/checkout` - Checkout related components
+    - `/home` - Home page components
+    - `/orders` - Order management components
+  - `/utils` - Utility functions
+
+## Backend Integration
+
+This project works in conjunction with a separate backend server (`ecommerce-backend`) that provides the following features:
+
+- Product management
+- Cart operations
+- Order processing
+- Delivery options
+- Payment processing
+
+## Contributing
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License.
